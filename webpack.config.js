@@ -4,8 +4,9 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     entry: {
-        'index/app': './src/index/app',
         'main': './src/main',
+        'index/app': './src/index/app',
+        'home/app': './src/home/app',
     },
     output: {
         path: path.join(__dirname, 'dist'), //打包输出的路径
